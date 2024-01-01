@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"udp_test\startup_stm32f103xe.o"
+"udp_test\main.o"
+"udp_test\gpio.o"
+"udp_test\usart.o"
+"udp_test\stm32f1xx_it.o"
+"udp_test\stm32f1xx_hal_msp.o"
+"udp_test\wifi.o"
+"udp_test\stm32f1xx_hal_gpio_ex.o"
+"udp_test\stm32f1xx_hal_tim.o"
+"udp_test\stm32f1xx_hal_tim_ex.o"
+"udp_test\stm32f1xx_hal_uart.o"
+"udp_test\stm32f1xx_hal.o"
+"udp_test\stm32f1xx_hal_rcc.o"
+"udp_test\stm32f1xx_hal_rcc_ex.o"
+"udp_test\stm32f1xx_hal_gpio.o"
+"udp_test\stm32f1xx_hal_dma.o"
+"udp_test\stm32f1xx_hal_cortex.o"
+"udp_test\stm32f1xx_hal_pwr.o"
+"udp_test\stm32f1xx_hal_flash.o"
+"udp_test\stm32f1xx_hal_flash_ex.o"
+"udp_test\stm32f1xx_hal_exti.o"
+"udp_test\system_stm32f1xx.o"
+--strict --scatter "UDP_TEST\UDP_TEST.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "UDP_TEST.map" -o UDP_TEST\UDP_TEST.axf

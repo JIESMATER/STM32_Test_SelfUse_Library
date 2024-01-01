@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"tcp_test\startup_stm32f103xe.o"
+"tcp_test\wifi.o"
+"tcp_test\main.o"
+"tcp_test\gpio.o"
+"tcp_test\usart.o"
+"tcp_test\stm32f1xx_it.o"
+"tcp_test\stm32f1xx_hal_msp.o"
+"tcp_test\stm32f1xx_hal_gpio_ex.o"
+"tcp_test\stm32f1xx_hal_tim.o"
+"tcp_test\stm32f1xx_hal_tim_ex.o"
+"tcp_test\stm32f1xx_hal_uart.o"
+"tcp_test\stm32f1xx_hal.o"
+"tcp_test\stm32f1xx_hal_rcc.o"
+"tcp_test\stm32f1xx_hal_rcc_ex.o"
+"tcp_test\stm32f1xx_hal_gpio.o"
+"tcp_test\stm32f1xx_hal_dma.o"
+"tcp_test\stm32f1xx_hal_cortex.o"
+"tcp_test\stm32f1xx_hal_pwr.o"
+"tcp_test\stm32f1xx_hal_flash.o"
+"tcp_test\stm32f1xx_hal_flash_ex.o"
+"tcp_test\stm32f1xx_hal_exti.o"
+"tcp_test\system_stm32f1xx.o"
+--strict --scatter "TCP_TEST\TCP_TEST.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TCP_TEST.map" -o TCP_TEST\TCP_TEST.axf
