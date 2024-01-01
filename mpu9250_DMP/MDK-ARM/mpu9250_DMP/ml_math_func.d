@@ -1,0 +1,11 @@
+mpu9250_dmp\ml_math_func.o: ..\DMP\mllite\ml_math_func.c
+mpu9250_dmp\ml_math_func.o: ../DMP/driver/include/mlmath.h
+mpu9250_dmp\ml_math_func.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\math.h
+mpu9250_dmp\ml_math_func.o: ..\DMP\mllite\ml_math_func.h
+mpu9250_dmp\ml_math_func.o: ../DMP/driver/include/mltypes.h
+mpu9250_dmp\ml_math_func.o: ../DMP/driver/include/stdint_invensense.h
+mpu9250_dmp\ml_math_func.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+mpu9250_dmp\ml_math_func.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+mpu9250_dmp\ml_math_func.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+mpu9250_dmp\ml_math_func.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+mpu9250_dmp\ml_math_func.o: ../DMP/driver/include/mlinclude.h

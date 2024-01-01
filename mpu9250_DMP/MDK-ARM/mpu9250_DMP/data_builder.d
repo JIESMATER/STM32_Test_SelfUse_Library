@@ -1,0 +1,17 @@
+mpu9250_dmp\data_builder.o: ..\DMP\mllite\data_builder.c
+mpu9250_dmp\data_builder.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+mpu9250_dmp\data_builder.o: ..\DMP\mllite\ml_math_func.h
+mpu9250_dmp\data_builder.o: ../DMP/driver/include/mltypes.h
+mpu9250_dmp\data_builder.o: ../DMP/driver/include/stdint_invensense.h
+mpu9250_dmp\data_builder.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+mpu9250_dmp\data_builder.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+mpu9250_dmp\data_builder.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+mpu9250_dmp\data_builder.o: ..\DMP\mllite\data_builder.h
+mpu9250_dmp\data_builder.o: ../DMP/driver/include/mlmath.h
+mpu9250_dmp\data_builder.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\math.h
+mpu9250_dmp\data_builder.o: ..\DMP\mllite\storage_manager.h
+mpu9250_dmp\data_builder.o: ..\DMP\mllite\message_layer.h
+mpu9250_dmp\data_builder.o: ..\DMP\mllite\results_holder.h
+mpu9250_dmp\data_builder.o: ../DMP/driver/include/log.h
+mpu9250_dmp\data_builder.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+mpu9250_dmp\data_builder.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

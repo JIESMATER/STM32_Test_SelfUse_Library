@@ -1,0 +1,17 @@
+mpu9250_dmp\hal_outputs.o: ..\DMP\mllite\hal_outputs.c
+mpu9250_dmp\hal_outputs.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+mpu9250_dmp\hal_outputs.o: ..\DMP\mllite\hal_outputs.h
+mpu9250_dmp\hal_outputs.o: ../DMP/driver/include/mltypes.h
+mpu9250_dmp\hal_outputs.o: ../DMP/driver/include/stdint_invensense.h
+mpu9250_dmp\hal_outputs.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+mpu9250_dmp\hal_outputs.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+mpu9250_dmp\hal_outputs.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+mpu9250_dmp\hal_outputs.o: ../DMP/driver/include/log.h
+mpu9250_dmp\hal_outputs.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+mpu9250_dmp\hal_outputs.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+mpu9250_dmp\hal_outputs.o: ..\DMP\mllite\ml_math_func.h
+mpu9250_dmp\hal_outputs.o: ../DMP/driver/include/mlmath.h
+mpu9250_dmp\hal_outputs.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\math.h
+mpu9250_dmp\hal_outputs.o: ..\DMP\mllite\start_manager.h
+mpu9250_dmp\hal_outputs.o: ..\DMP\mllite\data_builder.h
+mpu9250_dmp\hal_outputs.o: ..\DMP\mllite\results_holder.h

@@ -1,0 +1,11 @@
+mpu9250_dmp\message_layer.o: ..\DMP\mllite\message_layer.c
+mpu9250_dmp\message_layer.o: ..\DMP\mllite\message_layer.h
+mpu9250_dmp\message_layer.o: ../DMP/driver/include/mltypes.h
+mpu9250_dmp\message_layer.o: ../DMP/driver/include/stdint_invensense.h
+mpu9250_dmp\message_layer.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+mpu9250_dmp\message_layer.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+mpu9250_dmp\message_layer.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+mpu9250_dmp\message_layer.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+mpu9250_dmp\message_layer.o: ../DMP/driver/include/log.h
+mpu9250_dmp\message_layer.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+mpu9250_dmp\message_layer.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
