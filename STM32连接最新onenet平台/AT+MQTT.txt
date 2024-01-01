@@ -1,0 +1,36 @@
+1、AT    //测试指令
+
+2、AT+RST  //复位指令
+
+3、AT+CWMODE=1      //=1模式设置为station
+
+4、AT+CWDHCP=1,1    //启动DHCP
+
+5、AT+CWJAP=“WIFI名”，“密码”
+     AT+CWJAP="TT","a123456a"  //WiFi
+
+6、AT+MQTTUSERCFG=<LinkID>,<scheme>,<"client_id">,<"username">,<"password">,<cert_key_ID>,<CA_ID>,<"path">
+    AT+MQTTUSERCFG=0,1,"test1","TsUWn6659l","version=2018-10-31&res=products%2FTsUWn6659l%2Fdevices%2Ftest1&et=2052911776&method=md5&sign=n8xu7BvoA2%2F%2BX90QJLYA2Q%3D%3D",0,0,""
+
+7、AT+MQTTCONN=<LinkID>,<"host">,<port>,<reconnect>
+    AT+MQTTCONN=0,"mqtts.heclouds.com",1883,1
+
+8、AT+MQTTSUB=<LinkID>,<"topic">,<qos>
+    AT+MQTTSUB=0,"$sys/TsUWn6659l/test1/thing/property/post/reply",1
+
+9、AT+MQTTPUB=<LinkID>,<"topic">,<"data">,<qos>,<retain>
+     AT+MQTTPUB=0,"$sys/TsUWn6659l/test1/thing/property/post","{\"id\":\"123\"\,\"params\":{\"power\":{\"value\":16\}}}",0,0
+
+设备名称（clientID）：test1
+产品ID（username）:TsUWn6659l
+password:version=2018-10-31&res=products%2FTsUWn6659l%2Fdevices%2Ftest1&et=2052911776&method=md5&sign=n8xu7BvoA2%2F%2BX90QJLYA2Q%3D%3D
+url:mqtts.heclouds.com
+端口号：1883
+订阅：$sys/TsUWn6659l/test1/thing/property/post/reply
+发布：$sys/TsUWn6659l/test1/thing/property/post
+
+
+
+
+
+

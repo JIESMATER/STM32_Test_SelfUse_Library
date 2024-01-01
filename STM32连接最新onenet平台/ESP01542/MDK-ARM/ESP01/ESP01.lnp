@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"esp01\startup_stm32f103xe.o"
+"esp01\main.o"
+"esp01\gpio.o"
+"esp01\usart.o"
+"esp01\stm32f1xx_it.o"
+"esp01\stm32f1xx_hal_msp.o"
+"esp01\stm32f1xx_hal_gpio_ex.o"
+"esp01\stm32f1xx_hal_tim.o"
+"esp01\stm32f1xx_hal_tim_ex.o"
+"esp01\stm32f1xx_hal_uart.o"
+"esp01\stm32f1xx_hal.o"
+"esp01\stm32f1xx_hal_rcc.o"
+"esp01\stm32f1xx_hal_rcc_ex.o"
+"esp01\stm32f1xx_hal_gpio.o"
+"esp01\stm32f1xx_hal_dma.o"
+"esp01\stm32f1xx_hal_cortex.o"
+"esp01\stm32f1xx_hal_pwr.o"
+"esp01\stm32f1xx_hal_flash.o"
+"esp01\stm32f1xx_hal_flash_ex.o"
+"esp01\stm32f1xx_hal_exti.o"
+"esp01\system_stm32f1xx.o"
+"esp01\esp8266.o"
+--library_type=microlib --strict --scatter "ESP01\ESP01.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ESP01.map" -o ESP01\ESP01.axf
